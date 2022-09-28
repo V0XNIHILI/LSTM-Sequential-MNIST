@@ -23,7 +23,7 @@ def train(
 
     net = net.to(device)
 
-    optimizer = optim.SGD(net.parameters(),
+    optimizer = getattr(optim, config['optimizer']['name'])(net.parameters(),
                           lr=config['optimizer']['lr'],
                           momentum=config['optimizer']['momentum'],
                           weight_decay=config['optimizer']['weight_decay'])
