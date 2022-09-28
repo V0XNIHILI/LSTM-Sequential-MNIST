@@ -22,7 +22,7 @@ All in all, I hope that this mini-project can function as a transparent baseline
   "optimizer": {
       "grad_clip_value": 1.0,
       "lr": 0.001,
-      "name": "RMSProp",
+      "name": "RMSprop",
       "weight_decay": 0.0,
   },
   "task": {"T": 784, "name": "sequential_mnist"},
