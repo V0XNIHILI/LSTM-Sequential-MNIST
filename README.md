@@ -22,7 +22,6 @@ All in all, I hope that this mini-project can function as a transparent baseline
   "optimizer": {
       "grad_clip_value": 1.0,
       "lr": 0.001,
-      "momentum": 0.9,
       "name": "RMSProp",
       "weight_decay": 0.0,
   },
@@ -42,7 +41,7 @@ All in all, I hope that this mini-project can function as a transparent baseline
 
 <img width="1252" alt="image" src="https://user-images.githubusercontent.com/24796206/192869588-33f628e9-fe2e-4834-8e60-32ce777daa71.png">
 
-Please see [here](https://wandb.ai/douwe/fptt/reports/LSTM-performance-on-sequential-MNIST--VmlldzoyNzExNTQ3?accessToken=njlxulr3l404ak04huo0fkcju9rb0lapu2mdf2tpasy4zz42tuj5t5zlxex679jq) the full train and test performance results not only for the RMSProp trained model, but also for SGD and Adam.
+Please see [here](https://wandb.ai/douwe/fptt/reports/LSTM-performance-on-sequential-MNIST--VmlldzoyNzExNTQ3?accessToken=njlxulr3l404ak04huo0fkcju9rb0lapu2mdf2tpasy4zz42tuj5t5zlxex679jq) the full train and test performance results not only for the RMSProp trained model (`sandy-feather-252`), but also for SGD and Adam.
 
 ## Collaboration
 
